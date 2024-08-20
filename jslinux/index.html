@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ 
+<html>
+<head>
+    <title>VFsync</title>
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+  <a href="/webvm/index.html">see also WebVM</a>
+<div id="term_wrap-first" style="display:none">
+    <div id="term_container-first">
+    </div>
+    <div>
+      <textarea id="term_paste-first" cols="10" rows="1" autocorrect="off">Paste Here</textarea>
+      <label>
+       <img title="Upload files" src="images/upload-icon.png"><input type="file" id="files" multiple onchange="on_update_files(this.files)">
+      </label>
+      <progress id="net_progress-first">
+      </progress>
+    </div>
+</div>
+<div id="term_wrap-second" style="display:none">
+    <div id="term_container-second">
+    </div>
+    <div>
+      <textarea id="term_paste-second" cols="10" rows="1" autocorrect="off">Paste Here</textarea>
+      <label>
+       <img title="Upload files" src="images/upload-icon.png"><input type="file" id="files" multiple onchange="on_update_files(this.files)">
+      </label>
+      <progress id="net_progress-second">
+      </progress>
+    </div>
+</div>
+<script type="text/javascript" src="term-first.js"></script>
+<script type="text/javascript" src="jslinux-first.js"></script>
+
+<div id="copyright">For jslinux: &copy; 2017-2020 <a href="https://bellard.org">Fabrice Bellard</a></div>
+
+</body>
+</html>
+
